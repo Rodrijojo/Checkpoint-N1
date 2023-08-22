@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <title>Mind Travel</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class = "navbar">
+                <!-- Home -->
+                <li><a id ="home" href="#">Home</a></li>
+                <!-- All travels-->
+                <li><a  id="allTravels" href="#">All Travels</a></li>
+                <!-- Discount-->
+                <li><a  id="travlesDiscount" href="#">Travels Discount</a>
+            </ul>
+        </nav>
+        <h1>Mind Travel</h1>
+    </header>
+
+    <div class="banner">
+        <br>
+    </div>
+
+    <main>
+        <section class="Discount">
+            <h3 class="h3-main">Check our discounts!</h3>
+
+            <article class="destination">
+                <h4>Canada</h4>
+                <img src="images/canada.jpg" alt="Photo of Canada">
+                <p>Includes hotel and travel</p>
+            </article>
+
+            <article class="destination">
+                <h4>China</h4>
+                <img src="images/china.jpg" alt="Photo of China">
+                <p>Includes hotel trip and guide</p>
+            </article>
+
+            <article class="destination">
+                <h4>Australia</h4>
+                <img src="images/city.jpg" alt="Photo of Australia">
+                <p>Only includes travel</p>
+            </article>
+
+        </section>
+
+        <section class="Schedule">
+            <h3 class="h3-main">Schedule</h3>
+
+            <div class="caja">
+                <div>
+                    <ul>
+                        <li>Canada</li>
+                        <li>China</li>
+                        <li>Australia</li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <table class="tablita">
+                        <tr>
+                            <th><strong>Country</strong></th>
+                            <th><strong>Day</strong></th>
+                            <th><strong>Discount</strong></th>
+                        </tr>
+                        <tr>
+                            <th>Canada</th>
+                            <th>11/10</th>
+                            <th>20%</th>
+                        </tr>
+                        <tr>
+                            <th>China</th>
+                            <th>09/09</th>
+                            <th>10%</th>
+                        </tr>
+                        <tr>
+                            <th>Australia</th>
+                            <th>24/08</th>
+                            <th>40%</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>Cohort N° FS051, Marcos Rodríguez</p>
+            <form action="show_data.html" method="get">
+                <fieldset id="label-form">
+                    <legend>You need more information?</legend>
+                    <label for="email" >Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Send</button>    
+                </fieldset>
+
+            </form>
+            <a href="mailto:mindhub@gmail.com">mindhub@gmail.com</a>
+        </div>
+    </footer>
+</body>
+</html>
